@@ -88,6 +88,11 @@
       "source": "/hi/appointment/:id",
       "destination": "/contact#appointment",
       "permanent": true
+    },
+    {
+      "source": "/hi/privacy",
+      "destination": "/privacy",
+      "permanent": true
     }
   ],
   "headers": [
