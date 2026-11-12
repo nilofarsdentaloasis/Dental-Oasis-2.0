@@ -1,33 +1,90 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page (EN & HI) -->
   <url>
     <loc>https://www.nilofarsdentaloasis.com/</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/" />
   </url>
+  <url>
+    <loc>https://www.nilofarsdentaloasis.com/hi</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/" />
+  </url>
+
+  <!-- Treatments (EN & HI) -->
   <url>
     <loc>https://www.nilofarsdentaloasis.com/treatments</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/treatments" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/treatments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/treatments" />
   </url>
+  <url>
+    <loc>https://www.nilofarsdentaloasis.com/hi/treatments</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/treatments" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/treatments" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/treatments" />
+  </url>
+
+  <!-- About (EN & HI) -->
   <url>
     <loc>https://www.nilofarsdentaloasis.com/about</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/about" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/about" />
   </url>
   <url>
-    <loc>https://www.nilofarsdentaloasis.com/smile-gallery</loc>
+    <loc>https://www.nilofarsdentaloasis.com/hi/about</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/about" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/about" />
   </url>
+
+  <!-- Contact (EN & HI) -->
   <url>
     <loc>https://www.nilofarsdentaloasis.com/contact</loc>
     <lastmod>2026-11-12</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/contact" />
+  </url>
+  <url>
+    <loc>https://www.nilofarsdentaloasis.com/hi/contact</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.nilofarsdentaloasis.com/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://www.nilofarsdentaloasis.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.nilofarsdentaloasis.com/contact" />
+  </url>
+
+  <!-- Smile Gallery (English canonical) -->
+  <url>
+    <loc>https://www.nilofarsdentaloasis.com/smile-gallery</loc>
+    <lastmod>2026-11-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

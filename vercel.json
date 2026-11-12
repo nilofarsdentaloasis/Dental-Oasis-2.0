@@ -43,6 +43,36 @@
       "source": "/appointment/:id",
       "destination": "/contact#appointment",
       "permanent": true
+    },
+    {
+      "source": "/hi/our-services",
+      "destination": "/hi/treatments",
+      "permanent": true
+    },
+    {
+      "source": "/hi/about-us",
+      "destination": "/hi/about",
+      "permanent": true
+    },
+    {
+      "source": "/hi/contactus",
+      "destination": "/hi/contact",
+      "permanent": true
+    },
+    {
+      "source": "/hi/community-services",
+      "destination": "/hi/about#community",
+      "permanent": true
+    },
+    {
+      "source": "/hi/appointment",
+      "destination": "/hi/contact#appointment",
+      "permanent": true
+    },
+    {
+      "source": "/hi/appointment/:id",
+      "destination": "/hi/contact#appointment",
+      "permanent": true
     }
   ],
   "headers": [
