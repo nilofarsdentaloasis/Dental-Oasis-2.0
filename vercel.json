@@ -45,33 +45,38 @@
       "permanent": true
     },
     {
+      "source": "/hi",
+      "destination": "/",
+      "permanent": true
+    },
+    {
       "source": "/hi/our-services",
-      "destination": "/hi/treatments",
+      "destination": "/treatments",
       "permanent": true
     },
     {
       "source": "/hi/about-us",
-      "destination": "/hi/about",
+      "destination": "/about",
       "permanent": true
     },
     {
       "source": "/hi/contactus",
-      "destination": "/hi/contact",
+      "destination": "/contact",
       "permanent": true
     },
     {
       "source": "/hi/community-services",
-      "destination": "/hi/about#community",
+      "destination": "/about#community",
       "permanent": true
     },
     {
       "source": "/hi/appointment",
-      "destination": "/hi/contact#appointment",
+      "destination": "/contact#appointment",
       "permanent": true
     },
     {
       "source": "/hi/appointment/:id",
-      "destination": "/hi/contact#appointment",
+      "destination": "/contact#appointment",
       "permanent": true
     }
   ],
