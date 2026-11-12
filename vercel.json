@@ -45,6 +45,16 @@
       "permanent": true
     },
     {
+      "source": "/website/info",
+      "destination": "/about",
+      "permanent": true
+    },
+    {
+      "source": "/pricing",
+      "destination": "/treatments",
+      "permanent": true
+    },
+    {
       "source": "/hi",
       "destination": "/",
       "permanent": true
