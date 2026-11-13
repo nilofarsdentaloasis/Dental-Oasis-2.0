@@ -1716,23 +1716,68 @@
         opacity: 1 !important;
         transform: translateX(-50%) translateY(0) !important;
     }
-    @media (max-width: 640px) {
+        @media (max-width: 920px) {
         .footer-social-wrap {
             align-items: center !important;
             text-align: center !important;
+            margin: 22px auto 0 !important;
+            width: 100% !important;
+        }
+        .footer-social-kicker {
+            font-size: 10.5px !important;
+            text-align: center !important;
+            display: block !important;
+            width: 100% !important;
+            margin-bottom: 6px !important;
         }
         .footer-social-deck {
+            display: flex !important;
+            flex-direction: row !important;
             justify-content: center !important;
+            align-items: center !important;
             gap: 14px !important;
+            width: 100% !important;
         }
-        .social-btn {
-            width: 46px !important;
-            height: 46px !important;
-            min-width: 46px !important;
-            max-width: 46px !important;
-            min-height: 46px !important;
-            max-height: 46px !important;
-            border-radius: 14px !important;
+        .footer-col .footer-social-deck a.social-btn,
+        .footer-social-deck a.social-btn,
+        a.social-btn {
+            display: inline-flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+            width: 48px !important;
+            height: 48px !important;
+            min-width: 48px !important;
+            max-width: 48px !important;
+            min-height: 48px !important;
+            max-height: 48px !important;
+            border-radius: 13px !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            line-height: 1 !important;
+            box-sizing: border-box !important;
+            position: relative !important;
+            background: rgba(255, 248, 238, 0.08) !important;
+            border: 1px solid rgba(227, 201, 159, 0.35) !important;
+            color: #f0e3d2 !important;
+        }
+        .footer-col .footer-social-deck a.social-btn svg,
+        .footer-social-deck a.social-btn svg,
+        a.social-btn svg {
+            display: block !important;
+            width: 22px !important;
+            height: 22px !important;
+            min-width: 22px !important;
+            min-height: 22px !important;
+            margin: 0 auto !important;
+            padding: 0 !important;
+            fill: currentColor !important;
+            stroke: none !important;
+            flex-shrink: 0 !important;
+            pointer-events: none !important;
+            transform: none !important;
+        }
+        .social-tooltip {
+            display: none !important;
         }
     }
 
@@ -3317,7 +3362,7 @@
             margin: 0 0 16px !important
         }
 
-        .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost) {
+        .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost):not(.social-btn) {
             display: block;
             color: #cfc2b3;
             font: 12px/2.3 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif !important;
@@ -3325,7 +3370,7 @@
             transition: color .2s ease, transform .2s ease
         }
 
-        .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost):hover {
+        .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost):not(.social-btn):hover {
             color: #fff9ef;
             transform: translateX(3px)
         }
@@ -3449,7 +3494,7 @@
                 width: 100% !important;
             }
 
-            .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost) {
+            .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost):not(.social-btn) {
                 font-size: 12px !important;
                 line-height: 2 !important;
                 display: block !important;
@@ -3883,7 +3928,7 @@
                 width: 100% !important;
             }
 
-            .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost) {
+            .footer-col a:not(.footer-brand):not(.footer-cta):not(.footer-cta-ghost):not(.social-btn) {
                 font-size: 12px !important;
                 line-height: 1.95 !important;
                 display: block !important;
