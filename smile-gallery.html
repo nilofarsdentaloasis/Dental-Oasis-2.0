@@ -790,14 +790,14 @@ body.nav-open .header .menu-button .icon-close {
         font-size: 11.5px !important;
         padding: 8px 16px !important;
     }
-    /* Redesigned separate brand-styled social media icons for mobile view */
+    /* Gallery-matched circular social media icons for mobile view */
     .footer-socials {
         display: flex !important;
         flex-direction: row !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 14px !important;
-        margin: 18px auto 0 !important;
+        gap: 12px !important;
+        margin: 16px auto 0 !important;
         padding: 0 !important;
         width: 100% !important;
     }
@@ -805,68 +805,39 @@ body.nav-open .header .menu-button .icon-close {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 44px !important;
-        height: 44px !important;
-        min-width: 44px !important;
-        max-width: 44px !important;
-        min-height: 44px !important;
-        max-height: 44px !important;
+        width: 42px !important;
+        height: 42px !important;
+        min-width: 42px !important;
+        max-width: 42px !important;
+        min-height: 42px !important;
+        max-height: 42px !important;
         border-radius: 50% !important;
+        border: 1px solid rgba(227, 201, 159, 0.4) !important;
+        background: rgba(255, 250, 242, 0.08) !important;
+        color: #e7d9c7 !important;
         padding: 0 !important;
         margin: 0 !important;
         line-height: 0 !important;
         font-size: 0 !important;
         box-sizing: border-box !important;
         text-decoration: none !important;
-        transition: transform .18s ease, box-shadow .18s ease !important;
-        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.32) !important;
+        transition: all .25s ease !important;
     }
-    .footer-socials a[aria-label="Instagram"] {
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%) !important;
+    .footer-socials a:hover,
+    .footer-socials a:focus-visible {
         color: #ffffff !important;
-        border: 1px solid rgba(255, 255, 255, 0.25) !important;
-    }
-    .footer-socials a[aria-label="Facebook"] {
-        background: #1877f2 !important;
-        color: #ffffff !important;
-        border: 1px solid rgba(255, 255, 255, 0.25) !important;
-    }
-    .footer-socials a[aria-label="LinkedIn"] {
-        background: #0a66c2 !important;
-        color: #ffffff !important;
-        border: 1px solid rgba(255, 255, 255, 0.25) !important;
-    }
-    .footer-socials a[aria-label="YouTube"] {
-        background: #ff0000 !important;
-        color: #ffffff !important;
-        border: 1px solid rgba(255, 255, 255, 0.25) !important;
+        transform: translateY(-2px) !important;
     }
     .footer-socials a svg {
         display: block !important;
+        width: 16px !important;
+        height: 16px !important;
         margin: 0 auto !important;
         padding: 0 !important;
+        stroke: currentColor !important;
+        fill: none !important;
         flex-shrink: 0 !important;
         pointer-events: none !important;
-    }
-    .footer-socials a[aria-label="Instagram"] svg {
-        width: 21px !important;
-        height: 21px !important;
-        stroke: #ffffff !important;
-    }
-    .footer-socials a[aria-label="Facebook"] svg {
-        width: 20px !important;
-        height: 20px !important;
-        fill: #ffffff !important;
-    }
-    .footer-socials a[aria-label="LinkedIn"] svg {
-        width: 20px !important;
-        height: 20px !important;
-        fill: #ffffff !important;
-    }
-    .footer-socials a[aria-label="YouTube"] svg {
-        width: 22px !important;
-        height: 22px !important;
-        fill: #ffffff !important;
     }
     .footer-grid > .footer-col:nth-child(2) {
         grid-column: 1 !important;
@@ -1001,27 +972,27 @@ body.nav-open .header .menu-button .icon-close {
                         target="_blank">Google 4.9 ★ ↗</a></div>
                 <div class="footer-socials" aria-label="Social media links"><a
                         href="https://www.instagram.com/dentaloasis_25?igsh=ZTRybzF2bG1rcHd5" target="_blank"
-                        rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
-                            width="21" height="21" fill="none" stroke="currentColor" stroke-width="2"
-                            stroke-linecap="round" stroke-linejoin="round">
-                            <rect x="2.5" y="2.5" width="19" height="19" rx="5" />
-                            <circle cx="12" cy="12" r="4.5" />
-                            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none" />
+                        rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
+                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <rect x="2" y="2" width="20" height="20" rx="5" />
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
                         </svg></a><a href="https://www.facebook.com/profile.php?id=61584570819257" target="_blank"
-                        rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"
-                            width="20" height="20" fill="currentColor">
-                            <path
-                                d="M13.2 20.5v-7.3h2.5l.38-2.9h-2.88V8.45c0-.84.23-1.42 1.45-1.42h1.55V4.43c-.27-.04-1.2-.12-2.28-.12-2.26 0-3.8 1.38-3.8 3.9v2.09H7.8v2.9h2.35v7.3h3.05z" />
+                        rel="noopener noreferrer" class="social-icon-link" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"
+                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
                         </svg></a><a href="https://www.linkedin.com/in/dental-oasis-42a372399/" target="_blank"
-                        rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"
-                            width="20" height="20" fill="currentColor">
-                            <path
-                                d="M5.2 4.0c1.22 0 2.2.98 2.2 2.2s-.98 2.2-2.2 2.2-2.2-.98-2.2-2.2.98-2.2 2.2-2.2zm-1.8 6.5h3.6v10.5H3.4V10.5zm5.8 0h3.45v1.44h.05c.48-.91 1.66-1.87 3.4-1.87 3.64 0 4.3 2.4 4.3 5.51v5.42h-3.6v-4.8c0-1.15-.02-2.63-1.6-2.63-1.61 0-1.85 1.25-1.85 2.55v4.88H9.2V10.5z" />
+                        rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"
+                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                            <rect x="2" y="9" width="4" height="12" />
+                            <circle cx="4" cy="4" r="2" />
                         </svg></a><a href="https://www.youtube.com/@Thedentaldiaries25" target="_blank"
-                        rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"
-                            width="22" height="22" fill="currentColor">
+                        rel="noopener noreferrer" class="social-icon-link" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"
+                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
                             <path
-                                d="M21.58 7.19a2.76 2.76 0 0 0-1.94-1.96C17.93 4.75 12 4.75 12 4.75s-5.93 0-7.64.48A2.76 2.76 0 0 0 2.42 7.19 28.9 28.9 0 0 0 2 12a28.9 28.9 0 0 0 .42 4.81 2.76 2.76 0 0 0 1.94 1.96c1.71.48 7.64.48 7.64.48s5.93 0 7.64-.48a2.76 2.76 0 0 0 1.94-1.96 28.9 28.9 0 0 0 .42-4.81 28.9 28.9 0 0 0-.42-4.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
+                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
                         </svg></a></div>
             </div>
             <div class="footer-col">
