@@ -105,7 +105,8 @@ section[id]{scroll-margin-top:100px}
 /* Core Layout & Privacy Styles */
 .wrap{width:min(1220px,calc(100% - 64px));margin:auto}
 @media(max-width:640px){.wrap{width:min(1220px,calc(100% - 32px))}}
-.banner{background:linear-gradient(120deg,#fffdf9,#f5ecde);padding:140px 0 54px;border-bottom:1px solid #e7dbca}
+.banner{position:relative!important;min-height:360px!important;display:flex!important;align-items:center!important;margin-top:0!important;padding:144px 0 64px!important;background:linear-gradient(90deg,rgba(250,247,240,.96) 0%,rgba(250,247,240,.88) 28%,rgba(250,247,240,.42) 42%,rgba(250,247,240,0) 58%),url('images/clinic-interiors.jpg') center right/cover no-repeat!important}
+@media(max-width:920px){.banner{min-height:410px!important;display:flex!important;flex-direction:column!important;justify-content:flex-end!important;align-items:flex-start!important;padding:140px 0 36px!important;box-sizing:border-box!important;text-align:left!important;background:linear-gradient(to bottom,rgba(250,247,240,0) 0%,rgba(250,247,240,0) 28%,rgba(250,247,240,.45) 50%,rgba(250,247,240,.92) 72%,#faf7f0 95%),url('images/clinic-interiors.jpg') center top/cover no-repeat!important}.banner .wrap{position:relative!important;z-index:2!important;width:100%!important;max-width:min(100% - 32px,580px)!important;margin:0 auto!important}.banner h1{font-size:clamp(30px,7vw,42px)!important;line-height:1.15!important;margin:8px 0 10px!important;color:#3e3025!important}.banner p{font-size:14.5px!important;line-height:1.6!important;color:#55493e!important;max-width:480px!important;margin:0!important}}
 .banner h1{margin:10px 0 12px;color:#3a2d22}
 .banner p{margin:0;font-size:16px;max-width:680px;color:#6b5f54}
 .banner .eyebrow a{color:#997444;text-decoration:none}
