@@ -484,10 +484,9 @@ section[id]{scroll-margin-top:100px}
 .gallery-item{position:relative;overflow:hidden;border-radius:14px;border:1px solid #e8dccb;background:#f5ecde;cursor:pointer}
 .gallery-item img{width:100%;height:260px;object-fit:cover;transition:transform .4s ease}
 .gallery-item:hover img{transform:scale(1.05)}
-.gallery-item-cap{position:absolute;bottom:0;left:0;right:0;padding:16px 18px;background:linear-gradient(to top,rgba(42,31,22,.85),transparent);color:#fffdf9;transform:translateY(4px);transition:transform .3s ease}
-.gallery-item:hover .gallery-item-cap{transform:translateY(0)}
-.gallery-item-cap h4{font-size:14px;font-weight:600;margin:0 0 3px}
-.gallery-item-cap p{font-size:11.5px;opacity:.78;margin:0;line-height:1.4}
+.gallery-item-cap{position:absolute;bottom:0;left:0;right:0;padding:18px 20px;background:linear-gradient(to top,rgba(24,17,11,.92) 0%,rgba(24,17,11,.65) 60%,transparent 100%);color:#ffffff;transform:translateY(0);transition:transform .3s ease}
+.gallery-item-cap h4{font-size:15px;font-weight:600;margin:0 0 4px;color:#ffffff !important;text-shadow:0 2px 8px rgba(0,0,0,.6)}
+.gallery-item-cap p{font-size:12px;color:#f5ead9 !important;opacity:1 !important;margin:0;line-height:1.45;letter-spacing:.02em;text-shadow:0 1px 6px rgba(0,0,0,.6)}
 .ach-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
 .ach-card{background:#fffdf9;border:1px solid #e8dccb;border-radius:18px;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 12px 32px rgba(64,51,41,.06);transition:transform .3s ease,box-shadow .3s ease}
 .ach-card:hover{transform:translateY(-4px);box-shadow:0 22px 48px rgba(64,51,41,.11)}
@@ -825,14 +824,14 @@ body.nav-open .header .menu-button .icon-close {
         font-size: 11.5px !important;
         padding: 8px 16px !important;
     }
-    /* Gallery-matched circular social media icons for mobile view */
+    /* Completely redesigned balanced circular social media icons for mobile view */
     .footer-socials {
         display: flex !important;
         flex-direction: row !important;
         justify-content: center !important;
         align-items: center !important;
-        gap: 12px !important;
-        margin: 16px auto 0 !important;
+        gap: 14px !important;
+        margin: 18px auto 0 !important;
         padding: 0 !important;
         width: 100% !important;
     }
@@ -840,37 +839,41 @@ body.nav-open .header .menu-button .icon-close {
         display: flex !important;
         align-items: center !important;
         justify-content: center !important;
-        width: 42px !important;
-        height: 42px !important;
-        min-width: 42px !important;
-        max-width: 42px !important;
-        min-height: 42px !important;
-        max-height: 42px !important;
+        width: 44px !important;
+        height: 44px !important;
+        min-width: 44px !important;
+        max-width: 44px !important;
+        min-height: 44px !important;
+        max-height: 44px !important;
         border-radius: 50% !important;
         border: 1px solid rgba(227, 201, 159, 0.4) !important;
         background: rgba(255, 250, 242, 0.08) !important;
-        color: #e7d9c7 !important;
+        color: #f0e4d4 !important;
         padding: 0 !important;
         margin: 0 !important;
         line-height: 0 !important;
-        font-size: 0 !important;
         box-sizing: border-box !important;
         text-decoration: none !important;
-        transition: all .25s ease !important;
+        transition: all .2s ease !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.22) !important;
     }
     .footer-socials a:hover,
-    .footer-socials a:focus-visible {
-        color: #ffffff !important;
+    .footer-socials a:focus-visible,
+    .footer-socials a:active {
+        background: #c5a880 !important;
+        color: #241c15 !important;
+        border-color: #c5a880 !important;
         transform: translateY(-2px) !important;
+        box-shadow: 0 6px 16px rgba(197, 168, 128, 0.4) !important;
     }
     .footer-socials a svg {
         display: block !important;
-        width: 16px !important;
-        height: 16px !important;
+        width: 20px !important;
+        height: 20px !important;
         margin: 0 auto !important;
         padding: 0 !important;
-        stroke: currentColor !important;
-        fill: none !important;
+        fill: currentColor !important;
+        stroke: none !important;
         flex-shrink: 0 !important;
         pointer-events: none !important;
     }
@@ -1007,27 +1010,25 @@ body.nav-open .header .menu-button .icon-close {
                         target="_blank">Google 4.9 ★ ↗</a></div>
                 <div class="footer-socials" aria-label="Social media links"><a
                         href="https://www.instagram.com/dentaloasis_25?igsh=ZTRybzF2bG1rcHd5" target="_blank"
-                        rel="noopener noreferrer" class="social-icon-link" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
-                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
-                            <rect x="2" y="2" width="20" height="20" rx="5" />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                            <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-                        </svg></a><a href="https://www.facebook.com/profile.php?id=61584570819257" target="_blank"
-                        rel="noopener noreferrer" class="social-icon-link" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"
-                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                        </svg></a><a href="https://www.linkedin.com/in/dental-oasis-42a372399/" target="_blank"
-                        rel="noopener noreferrer" class="social-icon-link" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"
-                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect x="2" y="9" width="4" height="12" />
-                            <circle cx="4" cy="4" r="2" />
-                        </svg></a><a href="https://www.youtube.com/@Thedentaldiaries25" target="_blank"
-                        rel="noopener noreferrer" class="social-icon-link" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"
-                            width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.8">
+                        rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24"
+                            width="20" height="20">
                             <path
-                                d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z" />
-                            <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z" />
+                        </svg></a><a href="https://www.facebook.com/profile.php?id=61584570819257" target="_blank"
+                        rel="noopener noreferrer" aria-label="Facebook" title="Facebook"><svg viewBox="0 0 24 24"
+                            width="20" height="20">
+                            <path
+                                d="M13.5 21.5v-8.25h2.77l.42-3.22h-3.19V8.01c0-.93.26-1.57 1.6-1.57h1.71V3.57c-.3-.04-1.32-.13-2.51-.13-2.48 0-4.18 1.52-4.18 4.3v2.29H7.13v3.22h2.49v8.25h3.88z" />
+                        </svg></a><a href="https://www.linkedin.com/in/dental-oasis-42a372399/" target="_blank"
+                        rel="noopener noreferrer" aria-label="LinkedIn" title="LinkedIn"><svg viewBox="0 0 24 24"
+                            width="20" height="20">
+                            <path
+                                d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.46 10.9v8.37H9.2V10.9H6.46M7.83 6.64a1.64 1.64 0 1 0 0 3.28 1.64 1.64 0 0 0 0-3.28z" />
+                        </svg></a><a href="https://www.youtube.com/@Thedentaldiaries25" target="_blank"
+                        rel="noopener noreferrer" aria-label="YouTube" title="YouTube"><svg viewBox="0 0 24 24"
+                            width="20" height="20">
+                            <path
+                                d="M21.58 7.19a2.76 2.76 0 0 0-1.94-1.96C17.93 4.75 12 4.75 12 4.75s-5.93 0-7.64.48A2.76 2.76 0 0 0 2.42 7.19 28.9 28.9 0 0 0 2 12a28.9 28.9 0 0 0 .42 4.81 2.76 2.76 0 0 0 1.94 1.96c1.71.48 7.64.48 7.64-.48a2.76 2.76 0 0 0 1.94-1.96 28.9 28.9 0 0 0 .42-4.81 28.9 28.9 0 0 0-.42-4.81zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
                         </svg></a></div>
             </div>
             <div class="footer-col">
@@ -1102,49 +1103,8 @@ function about(){
 const gallery=[{src:img.clinic,title:'Reception & Welcome',desc:'Warm, welcoming patient lounge'},{src:img.room,title:'Treatment Room',desc:'Modern precision dental suite'},{src:img.interiors,title:'Clinic Interiors',desc:'Calm, sunlit interior spaces'},{src:img.env,title:'Our Environment',desc:'Clean, sterile clinical setting'},{src:img.hero,title:'Care & Comfort',desc:'Patient-first consultations'},{src:img.diag,title:'Diagnostic Suite',desc:'Digital X-ray & 3D review'}];
 return `<section class="banner"><div class="wrap"><span class="eyebrow"><a href="index.html">Home</a> / About Us</span><h1>About Dental Oasis</h1><p>Care that begins with understanding, clear answers, and gentle dentistry in Moi, Pune.</p></div></section>
 <section class="page-section" id="clinic" style="padding:84px 0;background:#fffdf9"><div class="container"><div class="about-clinic-grid"><div class="about-clinic-img">${pic(img.clinic,"Reception at Dr. Nilofar's Dental Oasis")}</div><div><span style="display:block;font-size:9.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a07a44;margin-bottom:14px">ABOUT THE CLINIC</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 16px;line-height:1.25">Thoughtful, patient-focused dental care in Moi, Pune</h2><p style="font-size:15px;line-height:1.85;color:#7a6d60;margin:0 0 20px">Dr. Nilofar's Dental Oasis is a modern dental clinic in Moi, Pune committed to making dental care accessible, transparent, and genuinely comfortable. We take the time to understand your concerns before recommending any treatment.</p><div class="about-values"><div class="about-value"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg><strong>Patient-First Approach</strong><small>Unrushed consultations with clear, honest guidance</small></div><div class="about-value"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg><strong>Sterile &amp; Safe</strong><small>Modern hygiene protocols and clinical-grade sterilisation</small></div><div class="about-value"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg><strong>Convenient Timings</strong><small>Mon&ndash;Sat &middot; 9 AM&ndash;2 PM &amp; 5 PM&ndash;9 PM</small></div><div class="about-value"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 6.5-9 13-9 13S3 16.5 3 10a9 9 0 1 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><strong>Easily Accessible</strong><small>Vimal Complex, Shop 7 &amp; 8, Moi&ndash;Chikhali Road</small></div></div><div style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn" href="contact.html#appointment">Book Appointment &rarr;</a><a class="btn alt" href="#team">Meet Our Team &darr;</a></div></div></div></div></section>
-<section class="page-section team-section" id="team" style="padding:84px 0"><div class="container"><div class="center" style="margin-bottom:36px"><span style="display:block;font-size:9.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a07a44;margin-bottom:12px;text-align:center">THE PEOPLE BEHIND YOUR CARE</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 12px;line-height:1.25;text-align:center">Meet Our Dental Experts</h2><p style="font-size:14px;line-height:1.75;color:#7a6d60;max-width:540px;margin:0 auto;text-align:center">A welcoming team of specialists committed to listening and helping you understand your dental care.</p></div><div class="team-lead-card"><div class="team-lead-photo"><img src="${ABOUT_NILOFAR_PHOTO}" alt="Dr. Nilofar Sohail Pathan" loading="lazy"></div><div class="team-lead-info"><span>Founder &amp; Chief Dental Surgeon</span><h3>Dr. Nilofar Sohail Pathan (Logade)</h3><p>A patient-first philosophy built on clarity, compassion, and comfort. Dr. Nilofar established Dental Oasis to offer personalized dental care that puts every patient at ease.</p><div class="team-lead-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Chief Dental Surgeon &middot; Moi, Pune</div></div></div><div class="team-associates"><article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-pooja-waghe.jpg" alt="Dr. Pooja Waghe" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>DENTAL SURGEON</span>
-                                <h3>Dr. Pooja Waghe</h3>
-                                <p>Comprehensive restorative and general dental care with gentle precision.</p>
-                            </div>
-                        </article>
-                        <article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-monal-phaphale.jpg" alt="Dr. Monal Phaphale" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>DENTAL SURGEON</span>
-                                <h3>Dr. Monal Phaphale</h3>
-                                <p>Patient-friendly preventive and conservative dental treatments for all ages.</p>
-                            </div>
-                        </article>
-                        <article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-harshvardhan-shelke.jpg" alt="Dr. Harshvardhan Shelke" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>ORAL SURGEON</span>
-                                <h3>Dr. Harshvardhan Shelke</h3>
-                                <p>Safe, gentle extractions and minor oral surgical care with patient comfort.</p>
-                            </div>
-                        </article>
-                        <article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-prasanna-pawar.jpg" alt="Dr. Prasanna Pawar" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>PROSTHODONTIST</span>
-                                <h3>Dr. Prasanna Pawar</h3>
-                                <p>Crowns, bridges, dentures, and full-mouth prosthetic rehabilitation.</p>
-                            </div>
-                        </article>
-                        <article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-nikhil.jpg" alt="Dr. Nikhil" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>ORAL SURGEON</span>
-                                <h3>Dr. Nikhil</h3>
-                                <p>Wisdom tooth removal and surgical procedures with calm, attentive care.</p>
-                            </div>
-                        </article>
-                        <article class="assoc-card">
-                            <div class="assoc-photo"><img src="images/dr-priyanka-khade.jpg" alt="Dr. Priyanka Khade" loading="lazy" style="object-fit:cover;object-position:top center" /></div>
-                            <div class="assoc-body"><span>ORTHODONTIST</span>
-                                <h3>Dr. Priyanka Khade</h3>
-                                <p>Braces and clear aligner care focused on balanced bite and confident smiles.</p>
-                            </div>
-                        </article></div><div class="staff-grid"><div class="staff-pill"><span>Front Desk Coordinator</span><strong>Vaishnavi</strong></div><div class="staff-pill"><span>Lab Incharge &amp; Coordinator</span><strong>Bhagwat</strong></div></div></div></section>
-<section class="page-section" id="gallery" style="padding:84px 0;background:#fffdf9"><div class="container"><div class="center" style="margin-bottom:36px"><span style="display:block;font-size:9.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a07a44;margin-bottom:12px;text-align:center">A LOOK INSIDE</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 12px;line-height:1.25;text-align:center">Clinic Gallery</h2><p style="font-size:14px;line-height:1.75;color:#7a6d60;max-width:540px;margin:0 auto;text-align:center">Designed to feel calm, clean, and welcoming from the moment you step in.</p></div><div class="gallery-masonry">${gallery.map(x=>`<article class="gallery-item"><img src="${e(x.src)}" alt="${e(x.title)}" loading="lazy"><div class="gallery-item-cap"><h4>${e(x.title)}</h4><p>${e(x.desc)}</p></div></article>`).join('')}</div></div></section>
+<section class="page-section doctors-section" id="team" style="padding:84px 0;background:#fffdf9"><div class="container"><div class="section-head center" style="margin-bottom:36px"><span class="section-kicker">THE PEOPLE BEHIND YOUR CARE</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 12px;line-height:1.25;text-align:center">Meet our <em>dental experts.</em></h2><p style="font-size:14px;line-height:1.75;color:#7a6d60;max-width:540px;margin:0 auto;text-align:center">A welcoming team committed to listening and helping you understand your dental care.</p></div><div class="doctor-lead"><article class="team-card team-card-lead"><div class="team-portrait team-portrait-photo" style="min-height:290px;position:relative"><img src="${ABOUT_NILOFAR_PHOTO}" alt="Dr. Nilofar Sohail Pathan" loading="lazy" style="width:100%;height:100%;object-fit:cover;object-position:50% 15%;position:absolute;inset:0" /></div><div class="team-info"><span>FOUNDER &amp; CHIEF DENTAL SURGEON</span><h3>Dr. Nilofar Sohail Pathan</h3><p>A patient-first approach to dental care, focused on clarity, comfort, and individual attention.</p></div></article></div><div class="doctor-row"><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-pooja-waghe.jpg" alt="Dr. Pooja Waghe" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>DENTAL SURGEON</span><h3>Dr. Pooja Waghe</h3><p>Comprehensive restorative and general dental care with gentle precision.</p></div></article><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-monal-phaphale.jpg" alt="Dr. Monal Phaphale" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>DENTAL SURGEON</span><h3>Dr. Monal Phaphale</h3><p>Patient-friendly preventive and conservative dental treatments for all ages.</p></div></article><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-harshvardhan-shelke.jpg" alt="Dr. Harshvardhan Shelke" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>ORAL SURGEON</span><h3>Dr. Harshvardhan Shelke</h3><p>Safe, gentle extractions and minor oral surgical care with patient comfort.</p></div></article><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-prasanna-pawar.jpg" alt="Dr. Prasanna Pawar" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>PROSTHODONTIST</span><h3>Dr. Prasanna Pawar</h3><p>Crowns, bridges, dentures, and full-mouth prosthetic rehabilitation.</p></div></article><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-nikhil.jpg" alt="Dr. Nikhil" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>ORAL SURGEON</span><h3>Dr. Nikhil</h3><p>Wisdom tooth removal and surgical procedures with calm, attentive care.</p></div></article><article class="team-card-sm"><div class="team-sm-photo"><img src="images/dr-priyanka-khade.jpg" alt="Dr. Priyanka Khade" loading="lazy" style="object-fit:cover;object-position:top center" /></div><div class="team-sm-body"><span>ORTHODONTIST</span><h3>Dr. Priyanka Khade</h3><p>Braces and clear aligner care focused on balanced bite and confident smiles.</p></div></article></div><div class="staff-grid" style="margin-top:24px"><div class="staff-pill"><span>Front Desk Coordinator</span><strong>Vaishnavi</strong></div><div class="staff-pill"><span>Lab Incharge &amp; Coordinator</span><strong>Bhagwat</strong></div></div></div></section>
+<section class="page-section" id="gallery" style="padding:84px 0;background:#fffdf9"><div class="container"><div class="center" style="margin-bottom:36px"><span style="display:block;font-size:9.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a07a44;margin-bottom:12px;text-align:center">A LOOK INSIDE</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 12px;line-height:1.25;text-align:center">Clinic Gallery</h2><p style="font-size:14px;line-height:1.75;color:#7a6d60;max-width:540px;margin:0 auto;text-align:center">Designed to feel calm, clean, and welcoming from the moment you step in.</p></div><div class="gallery-masonry">${gallery.map(x=>`<article class="gallery-item"><img src="${e(x.src)}" alt="${e(x.title)}" loading="lazy"><div class="gallery-item-cap"><h4>${e(x.title)}</h4><p style="color:#f5ead9!important;opacity:1!important;text-shadow:0 1px 6px rgba(0,0,0,.6)">${e(x.desc)}</p></div></article>`).join('')}</div></div></section>
 <section class="page-section" id="achievements" style="padding:84px 0;background:#f5ecde"><div class="container"><div class="center" style="margin-bottom:44px"><span style="display:block;font-size:9.5px;font-weight:700;letter-spacing:.17em;text-transform:uppercase;color:#a07a44;margin-bottom:12px;text-align:center">RECOGNITION</span><h2 style="font-size:clamp(28px,3.2vw,40px);font-weight:600;color:#3a2d22;margin:0 0 12px;line-height:1.25;text-align:center">Awards &amp; Achievements</h2><p style="font-size:14px;line-height:1.75;color:#7a6d60;max-width:560px;margin:0 auto;text-align:center">Professional honours and community recognition earned through dedicated clinical service and outreach.</p></div><div class="ach-grid"><article class="ach-card"><div class="ach-photo"><img src="images/award-young-achiever-2024.jpg" alt="Dr. Nilofar receiving the Young Achiever Award 2024 on stage" loading="lazy" /><span class="ach-badge">&#9733; 2024 Honour</span></div><div class="ach-content"><span>2024 Recognition &middot; Raigad District</span><h3>Young Achiever Award &mdash; 2024</h3><p>Recognised in Raigad District for exceptional dedication to patient care, community dental health, and advancing accessible dental services in the Moi region.</p><div class="ach-meta"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"/><path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"/><path d="M4 22h16"/><path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"/><path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"/><path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"/></svg><span>Awarded to Dr. Nilofar Sohail Pathan</span></div></div></article><article class="ach-card"><div class="ach-photo"><img src="images/award-kokani-doctors-association.jpg" alt="Dr. Nilofar recognised at the Kokani Doctors Association Annual Conference" loading="lazy" /><span class="ach-badge">&#10022; KDA Recognition</span></div><div class="ach-content"><span>Professional Association &middot; Annual Conference</span><h3>Kokani Doctors Association</h3><p>Recognised by the Kokani Doctors Association for clinical excellence and meaningful contribution to community healthcare outreach and oral hygiene awareness.</p><div class="ach-meta"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg><span>Clinical Excellence &amp; Community Outreach</span></div></div></article></div></div></section>
 <section class="page-section" id="community" style="padding:84px 0;background:#fffdf9"><div class="container"><div class="community-layout"><div class="community-copy"><span>OUTREACH &amp; COMMUNITY CARE</span><h2>Making Dental Care Accessible to All</h2><p>Beyond the clinic walls, Dr. Nilofar's Dental Oasis organises free dental screening camps and oral hygiene awareness programmes across Moi and nearby communities &mdash; because preventive care should never be out of reach.</p><ul class="community-bullets"><li>Free dental check-up and screening camps</li><li>Oral hygiene education for schools and local communities</li><li>125+ free consultations provided to date</li><li>3+ dedicated community dental camps conducted</li></ul><a class="btn" href="contact.html">Connect With Our Clinic &rarr;</a></div><div class="community-stats-box"><div class="community-stat-card"><strong>3+</strong><span>Free Dental Awareness Camps organised across the community</span><em>Camps Conducted</em></div><div class="community-stat-card"><strong>125+</strong><span>Free consultations offered to patients in need</span><em>Free Consultations</em></div></div></div></div></section>
 `+cta()}
